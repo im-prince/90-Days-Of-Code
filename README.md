@@ -20,11 +20,11 @@ This repository documents my daily progress in mastering **Data Structures & Alg
 
 ## 📅 Daily Progress Log
 
-| Day | Date | 🧠 DSA Topic | ⚙️ Dev Project/Task | 🔗 Link to Code |
-| :--- | :--- | :--- | :--- | :--- |
-| **01** | *Dec 25* | Array Reversal & Complexity Analysis | Spring Boot "Hello World" API | [View Code](./Day-01) |
-| **02** | *Dec 26* | ... | ... | ... |
-| **03** | *Dec 27* | ... | ... | ... |
+| Day | Date     | 🧠 DSA Topic | ⚙️ Dev Project/Task | 🔗 Link to Code |
+| :--- |:---------| :--- | :--- | :--- |
+| **01** | *Dec 26* | Array Reversal & Complexity Analysis | Spring Boot "Hello World" API | [View Code](./Day-01) |
+| **02** | *Dec 27* | ... | ... | ... |
+| **03** | *Dec 28* | ... | ... | ... |
 
 *(I will update this table every night after my 8-hour session.)*
 
