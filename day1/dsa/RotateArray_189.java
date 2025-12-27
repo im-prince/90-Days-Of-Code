@@ -1,6 +1,4 @@
 
-import java.util.Arrays;
-
 public class RotateArray_189 {
 
 
