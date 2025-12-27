@@ -1,4 +1,4 @@
-package Array;
+
 
 import java.util.Arrays;
 public class RunningSumOf1dArray_1480 {

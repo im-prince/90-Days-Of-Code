@@ -1,4 +1,3 @@
-package Array;
 
 public class minimumSizeSubarraySum_209 {
 
@@ -12,9 +11,11 @@ public class minimumSizeSubarraySum_209 {
             while (sumOfCurrentWindow >= target) {
                 res = Math.min(res, right - left + 1);
                 sumOfCurrentWindow -= nums[left++];
-            }
+            }  
         }
 
         return res == Integer.MAX_VALUE ? 0 : res;
     }
 }
+
+
