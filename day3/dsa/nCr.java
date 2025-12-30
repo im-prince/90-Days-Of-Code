@@ -11,4 +11,6 @@ public class nCr {
         return valnCr(n-1,r-1) +valnCr(n-1,r);
     }
 
+
+    
 }
