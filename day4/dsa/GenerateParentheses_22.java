@@ -27,6 +27,4 @@ public class GenerateParentheses_22 {
         }
 
     }
-
-
 }
