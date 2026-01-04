@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/90-Days-Of-Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/dsa/ConcatenationOfArray_1929.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2/dsa/ConcatenationOfArray_1929.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/dsa/HowManyNumbersAreSmallerThanTheCurrentNumber_1365.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2/dsa/HowManyNumbersAreSmallerThanTheCurrentNumber_1365.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/dsa/HowManyNumbersAreSmallerThanTheCurrentNumber_1365.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/dsa/GenerateParentheses_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/day4/dsa/GenerateParentheses_22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/dsa/HowManyNumbersAreSmallerThanTheCurrentNumber_1365.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;im-prince&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/im-prince/90-Days-Of-Code.git&quot;,
+    &quot;accountId&quot;: &quot;c8f74df9-4f5d-42d4-b369-d76fd743dfa3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="37mgFAdGq7MP0pGldtSJjQl79JH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GenerateParentheses_22.executor": "Run",
+    "Application.HowManyNumbersAreSmallerThanTheCurrentNumber_1365.executor": "Run",
+    "Application.IntoductionApplication.executor": "Run",
+    "Application.RunningSumOf1dArray_1480.executor": "Run",
+    "Application.day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365.executor": "Run",
+    "Application.nCr.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.nCr">
+    <configuration name="HowManyNumbersAreSmallerThanTheCurrentNumber_1365" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
+      <module name="90-Days-Of-Code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntoductionApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.prince.intoduction.IntoductionApplication" />
+      <module name="intoduction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.prince.intoduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningSumOf1dArray_1480" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunningSumOf1dArray_1480" />
+      <module name="90-Days-Of-Code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
+      <module name="90-Days-Of-Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nCr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nCr" />
+      <module name="90-Days-Of-Code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.nCr" />
+        <item itemvalue="Application.day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
+        <item itemvalue="Application.RunningSumOf1dArray_1480" />
+        <item itemvalue="Application.IntoductionApplication" />
+        <item itemvalue="Application.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="" />
+      <created>1767513554950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767513554950</updated>
+    </task>
+    <servers />
+  </component>
+</project>

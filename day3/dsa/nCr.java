@@ -1,3 +1,5 @@
+package day3.dsa;
+
 public class nCr {
 
     public static void main(String[] args) {

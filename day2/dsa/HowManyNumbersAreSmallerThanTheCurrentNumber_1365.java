@@ -1,3 +1,5 @@
+package day2.dsa;
+
 import java.util.Arrays;
 
 public class HowManyNumbersAreSmallerThanTheCurrentNumber_1365 {
