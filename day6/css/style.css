@@ -1,4 +1,4 @@
-h1 { 
+/* h1 { 
     color : red;
 }
 
@@ -13,4 +13,28 @@ p {
 
 body {
     background-color: rgb(176, 176, 185);
+} */
+
+*{
+    color :blue;
+} 
+
+/* h1{
+    color : greenyellow
+} */
+
+button{
+    color : rgb(57, 57, 39);
+}
+
+#headingone{
+    color : rgb(48, 216, 29);
+}
+
+#headingtwo{
+    color : rgb(194, 170, 172);
+}
+
+#headingthree{
+    color : rgb(49, 4, 4);
 }
