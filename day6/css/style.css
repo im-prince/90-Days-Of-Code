@@ -15,9 +15,9 @@ body {
     background-color: rgb(176, 176, 185);
 } */
 
-*{
+/* *{
     color :blue;
-} 
+}  */
 
 /* h1{
     color : greenyellow
@@ -37,4 +37,14 @@ button{
 
 #headingthree{
     color : rgb(49, 4, 4);
+}
+
+p{
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
 }
