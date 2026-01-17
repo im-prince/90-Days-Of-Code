@@ -23,7 +23,7 @@ body {
     color : greenyellow
 } */
 
-button{
+/* button{
     color : rgb(57, 57, 39);
 }
 
@@ -47,4 +47,14 @@ h1{
     text-align: center;
     text-decoration: underline;
     
+} */
+
+#one{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: normal;
+    font-size :30px;
+    text-transform: uppercase;
+}
+#two{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
