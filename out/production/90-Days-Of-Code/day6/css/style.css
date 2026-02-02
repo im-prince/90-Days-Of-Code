@@ -1,0 +1,60 @@
+/* h1 { 
+    color : red;
+}
+
+button {
+    background-color: green;
+    color: white;
+}
+
+p {
+    color: rgb(33, 33, 46);
+}
+
+body {
+    background-color: rgb(176, 176, 185);
+} */
+
+/* *{
+    color :blue;
+}  */
+
+/* h1{
+    color : greenyellow
+} */
+
+/* button{
+    color : rgb(57, 57, 39);
+}
+
+#headingone{
+    color : rgb(48, 216, 29);
+}
+
+#headingtwo{
+    color : rgb(194, 170, 172);
+}
+
+#headingthree{
+    color : rgb(49, 4, 4);
+}
+
+p{
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+} */
+
+#one{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: normal;
+    font-size :30px;
+    text-transform: uppercase;
+}
+#two{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

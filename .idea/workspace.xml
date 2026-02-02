@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="" />
+    <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/90-Days-Of-Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/90-Days-Of-Code/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +43,8 @@
     "Application.HowManyNumbersAreSmallerThanTheCurrentNumber_1365.executor": "Run",
     "Application.IntoductionApplication.executor": "Run",
     "Application.RunningSumOf1dArray_1480.executor": "Run",
+    "Application.bubbleSort.executor": "Run",
+    "Application.bubleSort.executor": "Run",
     "Application.day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365.executor": "Run",
     "Application.nCr.executor": "Run",
     "Application.sumOfNnaturalNo.executor": "Run",
@@ -53,23 +58,16 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.sumOfNnaturalNo">
-    <configuration name="IntoductionApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.prince.intoduction.IntoductionApplication" />
-      <module name="intoduction" />
+  <component name="RunManager" selected="Application.sumOfNum">
+    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.bubbleSort" />
+      <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.prince.intoduction.*" />
+          <option name="PATTERN" value="day7.dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunningSumOf1dArray_1480" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunningSumOf1dArray_1480" />
-      <module name="90-Days-Of-Code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sumOfNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.sumOfNum" />
+      <module name="90-Days-Of-Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day7.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sumOfNum" />
+        <item itemvalue="Application.bubbleSort" />
         <item itemvalue="Application.sumOfNnaturalNo" />
         <item itemvalue="Application.nCr" />
         <item itemvalue="Application.day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
-        <item itemvalue="Application.RunningSumOf1dArray_1480" />
-        <item itemvalue="Application.IntoductionApplication" />
       </list>
     </recent_temporary>
   </component>
