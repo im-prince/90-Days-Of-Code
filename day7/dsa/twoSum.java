@@ -1,4 +1,4 @@
-
+package day7.dsa;
 
 import java.util.Arrays;
 public class twoSum {
