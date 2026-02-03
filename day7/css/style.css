@@ -1,0 +1,49 @@
+/* #box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 10px;
+   
+} */
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid red;
+    display: inline-block;
+   
+}
+
+/* #box1{
+   position: static;
+   background-color: black;
+}
+
+#box2{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background-color: brown;
+    z-index: ;
+}
+
+#box3{
+    position: absolute;
+    background-color: blueviolet;
+    top: 500px;
+    left: 20px;
+}
+
+#box4{
+    position: fixed;
+    top: 0;
+} */
+
+
+#box1{
+    background-image:url(image1.jpg);
+    background-size: cover;
+}

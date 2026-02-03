@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="" />
+    <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/dsa/twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/day7/dsa/twoSum.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,9 +43,13 @@
     &quot;Application.HowManyNumbersAreSmallerThanTheCurrentNumber_1365.executor&quot;: &quot;Run&quot;,
     &quot;Application.IntoductionApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.RunningSumOf1dArray_1480.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bubleSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365.executor&quot;: &quot;Run&quot;,
     &quot;Application.nCr.executor&quot;: &quot;Run&quot;,
     &quot;Application.sumOfNnaturalNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOfNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.waveArray.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -53,16 +60,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.bubleSort">
-    <configuration name="RunningSumOf1dArray_1480" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunningSumOf1dArray_1480" />
-      <module name="90-Days-Of-Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bubleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.dsa.bubleSort" />
+  <component name="RunManager" selected="Application.minSubArray">
+    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.bubbleSort" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
@@ -74,22 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
+    <configuration name="minSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.minSubArray" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2.dsa.*" />
+          <option name="PATTERN" value="day7.dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nCr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nCr" />
-      <module name="90-Days-Of-Code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,13 +100,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sumOfNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.sumOfNum" />
+      <module name="90-Days-Of-Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day7.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="waveArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.waveArray" />
+      <module name="90-Days-Of-Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day7.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.bubleSort" />
+        <item itemvalue="Application.minSubArray" />
+        <item itemvalue="Application.waveArray" />
+        <item itemvalue="Application.sumOfNum" />
+        <item itemvalue="Application.bubbleSort" />
         <item itemvalue="Application.sumOfNnaturalNo" />
-        <item itemvalue="Application.nCr" />
-        <item itemvalue="Application.day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
-        <item itemvalue="Application.RunningSumOf1dArray_1480" />
       </list>
     </recent_temporary>
   </component>

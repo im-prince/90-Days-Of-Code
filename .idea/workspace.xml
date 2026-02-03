@@ -6,12 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day7/css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/day7/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/90-Days-Of-Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/90-Days-Of-Code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/90-Days-Of-Code/day7/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/90-Days-Of-Code/day7/css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/90-Days-Of-Code/day7/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/90-Days-Of-Code/day7/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,9 +56,15 @@
     "Application.RunningSumOf1dArray_1480.executor": "Run",
     "Application.bubbleSort.executor": "Run",
     "Application.bubleSort.executor": "Run",
+    "Application.buyAndSellStock.executor": "Run",
     "Application.day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365.executor": "Run",
+    "Application.duplicateElement.executor": "Run",
+    "Application.minSubArray.executor": "Run",
     "Application.nCr.executor": "Run",
+    "Application.reverseArray.executor": "Run",
     "Application.sumOfNnaturalNo.executor": "Run",
+    "Application.sumOfNum.executor": "Run",
+    "Application.waveArray.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -58,9 +75,9 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.sumOfNum">
-    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.dsa.bubbleSort" />
+  <component name="RunManager" selected="Application.buyAndSellStock">
+    <configuration name="buyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.buyAndSellStock" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
@@ -72,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
+    <configuration name="duplicateElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.duplicateElement" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2.dsa.*" />
+          <option name="PATTERN" value="day7.dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,19 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nCr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nCr" />
-      <module name="90-Days-Of-Code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sumOfNnaturalNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5.dsa.sumOfNnaturalNo" />
+    <configuration name="minSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.minSubArray" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5.dsa.*" />
+          <option name="PATTERN" value="day7.dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,8 +115,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sumOfNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.dsa.sumOfNum" />
+    <configuration name="reverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.reverseArray" />
+      <module name="90-Days-Of-Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day7.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="waveArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.dsa.waveArray" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.sumOfNum" />
-        <item itemvalue="Application.bubbleSort" />
-        <item itemvalue="Application.sumOfNnaturalNo" />
-        <item itemvalue="Application.nCr" />
-        <item itemvalue="Application.day2.dsa.HowManyNumbersAreSmallerThanTheCurrentNumber_1365" />
+        <item itemvalue="Application.buyAndSellStock" />
+        <item itemvalue="Application.duplicateElement" />
+        <item itemvalue="Application.reverseArray" />
+        <item itemvalue="Application.minSubArray" />
+        <item itemvalue="Application.waveArray" />
       </list>
     </recent_temporary>
   </component>
