@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-IntoductionApplication<intoduction>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springboot.prince.intoduction.IntoductionApplication",
+            "projectName": "intoduction",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
