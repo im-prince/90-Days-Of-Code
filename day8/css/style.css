@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:flex-end; */
+    /* justify-content:space-around; */
+    justify-content:center;
+    align-items: centre;
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+}
+}
+
+#box1{
+    background-color: rgb(27, 27, 59);
+}
+
+#box2{
+    background-color: pink;
+    height: 150px;
+    /* align-self: flex-end; */
+    flex-shrink: 0.5;
+    flex-grow: 1;
+}
+
+#box3{
+    background-color: yellowgreen;
+}
+
+#box4{
+    background-color: red;
+}
+
+#box5{
+    background-color: crimson;
+}
