@@ -31,11 +31,12 @@ div{
 
 
 div:hover{
-    /* background-color: blue;
-    color: white;
-    font-size: 20px; */
-    /* transform: rotate(80deg);
-} */
+
+    background-color: blue;
+    /* color: white;
+    font-size: 20px; 
+    transform: rotate(80deg); */
+}
 
 div:active{
     background-color: pink;
