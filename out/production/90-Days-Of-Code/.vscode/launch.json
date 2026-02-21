@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BootrestbookApplication",
+            "request": "launch",
+            "mainClass": "com.api.book.bootrestbook.BootrestbookApplication",
+            "projectName": "bootrestbook"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-IntoductionApplication<intoduction>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
