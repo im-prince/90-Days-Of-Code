@@ -54,5 +54,10 @@ public class BookController {
         this.bookServices.deleteBook(bookId);
     }
 
+    @PutMapping("/books/{bookId}")
+    public Book updaeBook(@RequestBody Book book, @PathVariable("bookId") int bookId){
+        this.bookServices.updateBook(book,bookId);
+        return book;
+    }
 
 }
