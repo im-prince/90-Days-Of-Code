@@ -18,17 +18,23 @@ public class BookService {
         list.add(new Book("ASD",150,"Java Basic"));
     }
 
+//    Get all book
     public List<Book> getAllBooks(){
         return list;
     }
 
+    // Get Book By id
     public Book getBookById(int id){
         Book book = null;
         book = list.stream().
                 filter(e->e.getId()==id)
                 .findFirst().get();
-
         return book;
+    }
 
+//    Adding Book
+    public Book addBook(Book b){
+        list.add(b);
+        return b;
     }
 }

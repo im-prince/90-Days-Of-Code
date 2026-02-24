@@ -26,16 +26,27 @@ public class BookController {
 //        return a;
 //    }
 
-
     @GetMapping("/books")
-    public List<Book> getBooks(){
+    public List<Book> getBooks()
+    {
         return this.bookServices.getAllBooks();
 
     }
 
     @GetMapping("/books/{id}")
-    public Book getBook(@PathVariable("id") int id){
+    public Book getBook(@PathVariable("id") int id)
+    {
         return bookServices.getBookById(id);
     }
+
+
+    @PostMapping("/books")
+    public Book addBook(@RequestBody Book book)
+    {
+        Book b = this.bookServices.addBook(book);
+        System.out.println(book);
+        return b;
+    }
+
 
 }
