@@ -1,6 +1,6 @@
 package com.api.book.bootrestbook.entities;
 
-public class book {
+public class Book {
 
 
     private int id;
@@ -40,13 +40,13 @@ public class book {
                 '}';
     }
 
-    public book(String author, int id, String title) {
+    public Book(String author, int id, String title) {
         this.author = author;
         this.id = id;
         this.title = title;
     }
 
-    public book(){
+    public Book(){
     }
 
 }
