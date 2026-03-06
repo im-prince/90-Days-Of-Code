@@ -83,13 +83,19 @@ public class BookController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
 
-
     }
 
+
     @PutMapping("/books/{bookId}")
-    public Book updaeBook(@RequestBody Book book, @PathVariable("bookId") int bookId){
-        this.bookServices.updateBook(book,bookId);
-        return book;
+    public ResponseEntity<Book> updaeBook(@RequestBody Book book, @PathVariable("bookId") int bookId){
+        try {
+            this.bookServices.updateBook(book,bookId);
+            return ResponseEntity.ok().body(book);
+        }catch (Exception e){
+            e.printStackTrace();
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
+
     }
 
 }
