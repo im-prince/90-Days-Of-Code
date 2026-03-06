@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/services/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +67,8 @@
     &quot;Application.sumOfNnaturalNo.executor&quot;: &quot;Run&quot;,
     &quot;Application.sumOfNum.executor&quot;: &quot;Run&quot;,
     &quot;Application.waveArray.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bootrestbook [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bootrestbook [package].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,

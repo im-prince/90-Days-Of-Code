@@ -5,9 +5,13 @@ import com.api.book.bootrestbook.entities.Book;
 import com.api.book.bootrestbook.services.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class BookController {
@@ -27,16 +31,24 @@ public class BookController {
 //    }
 
     @GetMapping("/books")
-    public List<Book> getBooks()
+    public ResponseEntity<List<Book>> getBooks()
     {
-        return this.bookServices.getAllBooks();
+        List<Book> list = bookServices.getAllBooks();
+        if (list.size()<=0){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        return ResponseEntity.of(Optional.of(list));
 
     }
 
     @GetMapping("/books/{id}")
-    public Book getBook(@PathVariable("id") int id)
+    public ResponseEntity<Book> getBook(@PathVariable("id") int id)
     {
-        return bookServices.getBookById(id);
+        Book book = bookServices.getBookById(id);
+        if (book == null){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        return ResponseEntity.of(Optional.of(book));
     }
 
 
