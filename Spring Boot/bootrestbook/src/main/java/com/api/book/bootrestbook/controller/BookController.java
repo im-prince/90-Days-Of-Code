@@ -30,6 +30,8 @@ public class BookController {
 //        return a;
 //    }
 
+
+
     @GetMapping("/books")
     public ResponseEntity<List<Book>> getBooks()
     {
@@ -40,6 +42,8 @@ public class BookController {
         return ResponseEntity.of(Optional.of(list));
 
     }
+
+
 
     @GetMapping("/books/{id}")
     public ResponseEntity<Book> getBook(@PathVariable("id") int id)
@@ -52,12 +56,19 @@ public class BookController {
     }
 
 
+
     @PostMapping("/books")
-    public Book addBook(@RequestBody Book book)
+    public ResponseEntity<Book> addBook(@RequestBody Book book)
     {
-        Book b = this.bookServices.addBook(book);
-        System.out.println(book);
-        return b;
+        Book b = null;
+        try{
+            b = this.bookServices.addBook(book);
+            System.out.println(book);
+            return ResponseEntity.of(Optional.of(b));
+        }catch (Exception e){
+            e.printStackTrace();
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
 
