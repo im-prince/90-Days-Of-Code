@@ -11,9 +11,11 @@ public class middleElement {
       ListNode(int val) {
           this.val = val;
       }
+
       ListNode(int val, ListNode next) {
           this.val = val; this.next = next;
       }
+
   }
 
     public static ListNode middleNode(ListNode head){
@@ -24,7 +26,6 @@ public class middleElement {
             slow = slow.next;
             fast = fast.next.next;
         }
-
         return slow;
     }
 }
