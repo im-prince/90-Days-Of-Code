@@ -4,13 +4,7 @@ import com.api.book.bootrestbook.entities.Book;
 import com.api.book.bootrestbook.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-
-
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-
 
 
 @Component

@@ -7,29 +7,29 @@ import jakarta.persistence.*;
 @Table(name="books")
 public class Book {
 
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "book_id")
-    private int id;
-    private String author;
-    private String title;
+    private Integer id;
 
-    public int getId() {
+    private String title;
+    private String author;
+
+    public Book() {
+    }
+
+    public Book(Integer id, String title, String author) {
+        this.id = id;
+        this.title = title;
+        this.author = author;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
     }
 
     public String getTitle() {
@@ -40,23 +40,11 @@ public class Book {
         this.title = title;
     }
 
-    @Override
-    public String toString() {
-        return "book{" +
-                "id=" + id +
-                ", author='" + author + '\'' +
-                ", title='" + title + '\'' +
-                '}';
+    public String getAuthor() {
+        return author;
     }
 
-    public Book(String author, int id, String title) {
+    public void setAuthor(String author) {
         this.author = author;
-        this.id = id;
-        this.title = title;
     }
-
-    public Book(){
-    }
-
 }
-

@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Boot/bootrestbook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot/bootrestbook/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/java/com/api/book/bootrestbook/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Boot/bootrestbook/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/90-Days-Of-Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/90-Days-Of-Code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,6 +74,7 @@
     &quot;Application.sumOfNum.executor&quot;: &quot;Run&quot;,
     &quot;Application.waveArray.executor&quot;: &quot;Run&quot;,
     &quot;Maven.bootrestbook [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bootrestbook [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.bootrestbook [package].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -81,6 +89,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.BootrestbookApplication (1)">
     <configuration name="BootrestbookApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.api.book.bootrestbook.BootrestbookApplication" />
@@ -150,8 +163,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BootrestbookApplication (1)" />
-        <item itemvalue="Application.rotateArray" />
         <item itemvalue="Application.BootrestbookApplication" />
+        <item itemvalue="Application.rotateArray" />
         <item itemvalue="Application.palindromeString" />
         <item itemvalue="Application.fiboncci" />
       </list>
