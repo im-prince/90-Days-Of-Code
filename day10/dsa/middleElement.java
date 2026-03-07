@@ -1,4 +1,4 @@
-package Day10.dsa;
+package day10.dsa;
 
 public class middleElement {
 
