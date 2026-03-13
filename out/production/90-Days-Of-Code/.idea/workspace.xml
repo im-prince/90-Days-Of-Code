@@ -64,8 +64,10 @@
     &quot;Application.minSubArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.nCr.executor&quot;: &quot;Run&quot;,
     &quot;Application.palindromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.parenthesesMatching.executor&quot;: &quot;Run&quot;,
     &quot;Application.reverseArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.rotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stockSpanProblem.executor&quot;: &quot;Run&quot;,
     &quot;Application.sumOfNnaturalNo.executor&quot;: &quot;Run&quot;,
     &quot;Application.sumOfNum.executor&quot;: &quot;Run&quot;,
     &quot;Application.waveArray.executor&quot;: &quot;Run&quot;,
@@ -83,7 +85,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.emmet&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -91,7 +93,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stockSpanProblem">
+  <component name="RunManager" selected="Application.DistinctElement">
     <configuration name="BootrestbookApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.api.book.bootrestbook.BootrestbookApplication" />
       <module name="bootrestbook" />
@@ -118,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.dsa.palindromeString" />
+    <configuration name="DistinctElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.DistinctElement" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day8.dsa.*" />
+          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day9.dsa.rotateArray" />
+    <configuration name="parenthesesMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day12.parenthesesMatching" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day9.dsa.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +147,11 @@
       </method>
     </configuration>
     <configuration name="stockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.dsa.stockSpanProblem" />
+      <option name="MAIN_CLASS_NAME" value="day12.stockSpanProblem" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.dsa.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DistinctElement" />
+        <item itemvalue="Application.parenthesesMatching" />
         <item itemvalue="Application.stockSpanProblem" />
         <item itemvalue="Application.BootrestbookApplication (1)" />
         <item itemvalue="Application.BootrestbookApplication" />
-        <item itemvalue="Application.rotateArray" />
-        <item itemvalue="Application.palindromeString" />
       </list>
     </recent_temporary>
   </component>
