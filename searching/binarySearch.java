@@ -9,7 +9,7 @@ public class binarySearch {
     }
     static int search(int[] a, int target){
         int s = 0;
-        int e = a.length;
+        int e = a.length-1;
         while (s <= e){
             int m = s+(e-s)/2;
             if (a[m] == target){
