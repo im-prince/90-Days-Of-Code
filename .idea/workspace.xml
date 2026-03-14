@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searching/binarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/searching/binarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
     "Application.stockSpanProblem.executor": "Run",
     "Application.sumOfNnaturalNo.executor": "Run",
     "Application.sumOfNum.executor": "Run",
+    "Application.upperAndLoweBond.executor": "Run",
     "Application.waveArray.executor": "Run",
     "Maven.bootrestbook [clean].executor": "Run",
     "Maven.bootrestbook [compile].executor": "Run",
@@ -98,7 +98,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.firstOccurence">
+  <component name="RunManager" selected="Application.upperAndLoweBond">
     <configuration name="DistinctElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day13.DistinctElement" />
       <module name="90-Days-Of-Code" />
@@ -151,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="parenthesesMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.parenthesesMatching" />
+    <configuration name="upperAndLoweBond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.upperAndLoweBond" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.*" />
+          <option name="PATTERN" value="searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.upperAndLoweBond" />
         <item itemvalue="Application.firstOccurence" />
         <item itemvalue="Application.binarySearch" />
         <item itemvalue="Application.frequencyOfArrayElement" />
         <item itemvalue="Application.DistinctElement" />
-        <item itemvalue="Application.parenthesesMatching" />
       </list>
     </recent_temporary>
   </component>
@@ -198,15 +198,14 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/searching/firstOccurence.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/searching/firstOccurence.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
+          <line>12</line>
+          <properties class="searching.firstOccurence" method="indexOfFirstOcc">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
