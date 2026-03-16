@@ -5,7 +5,6 @@ public class searchInsertPosition {
         int[] nums ={2,3,4};
         System.out.println(searchInsert(nums,1));
     }
-
     public static int searchInsert(int[] nums, int target) {
         int s = 0;
         int e = nums.length-1;
