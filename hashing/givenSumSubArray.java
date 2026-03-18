@@ -8,7 +8,6 @@ public class givenSumSubArray {
         int[] a ={1,2,3,2,4,1,2};
         int target = 5;
         System.out.println(countSubArray(a,target));
-
     }
 
     static int countSubArray(int[] a, int target) {
