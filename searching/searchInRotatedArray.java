@@ -1,17 +1,10 @@
 package searching;
 
-import java.util.Arrays;
-
 public class searchInRotatedArray {
     public static void main(String[] args) {
-
-
         int[] a = {10,11,13,14,1,2,4,6,7,9};
         System.out.println(rotatedArray(a,6));
-
     }
-
-
     static int rotatedArray(int[] a, int target){
         int l = 0;
         int r = a.length -1;
@@ -27,7 +20,6 @@ public class searchInRotatedArray {
                 }else {
                     l= m+1;
                 }
-
             }else{
                 if (a[m] < target && target <= a[r]){
                     l= m+1;
@@ -38,5 +30,4 @@ public class searchInRotatedArray {
         }
         return -1;
     }
-
 }
