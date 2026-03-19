@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0eb8e2ea-dd17-47d6-81e7-fa75dd757b1a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashing/twoSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/hashing/twoSumProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +69,14 @@
     "Application.fiboncci.executor": "Run",
     "Application.firstOccurence.executor": "Debug",
     "Application.frequencyOfArrayElement.executor": "Run",
+    "Application.givenSumSubArray.executor": "Run",
     "Application.minSubArray.executor": "Run",
     "Application.nCr.executor": "Run",
     "Application.palindromeString.executor": "Run",
     "Application.parenthesesMatching.executor": "Run",
     "Application.reverseArray.executor": "Run",
     "Application.rotateArray.executor": "Run",
+    "Application.searchInRotatedArray.executor": "Run",
     "Application.searchInsertPosition.executor": "Run",
     "Application.stockSpanProblem.executor": "Run",
     "Application.sumOfNnaturalNo.executor": "Run",
@@ -83,6 +84,7 @@
     "Application.twoSumProblem.executor": "Run",
     "Application.upperAndLoweBond.executor": "Run",
     "Application.waveArray.executor": "Run",
+    "Application.zeroSumSubArray.executor": "Run",
     "Maven.bootrestbook [clean].executor": "Run",
     "Maven.bootrestbook [compile].executor": "Run",
     "Maven.bootrestbook [package].executor": "Run",
@@ -94,9 +96,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.idesettings.emmet"
   }
@@ -106,7 +108,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.twoSumProblem">
+  <component name="RunManager" selected="Application.searchInRotatedArray">
     <configuration name="BootrestbookApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.api.book.bootrestbook.BootrestbookApplication" />
       <module name="bootrestbook" />
@@ -120,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.firstOccurence" />
+    <configuration name="givenSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.givenSumSubArray" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.searchInsertPosition" />
+    <configuration name="searchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.searchInRotatedArray" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
@@ -159,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="upperAndLoweBond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.upperAndLoweBond" />
+    <configuration name="zeroSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.zeroSumSubArray" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.searchInRotatedArray" />
+        <item itemvalue="Application.givenSumSubArray" />
+        <item itemvalue="Application.zeroSumSubArray" />
         <item itemvalue="Application.twoSumProblem" />
         <item itemvalue="Application.BootrestbookApplication" />
-        <item itemvalue="Application.searchInsertPosition" />
-        <item itemvalue="Application.upperAndLoweBond" />
-        <item itemvalue="Application.firstOccurence" />
       </list>
     </recent_temporary>
   </component>

@@ -76,6 +76,7 @@
     "Application.parenthesesMatching.executor": "Run",
     "Application.reverseArray.executor": "Run",
     "Application.rotateArray.executor": "Run",
+    "Application.searchInRotatedArray.executor": "Run",
     "Application.searchInsertPosition.executor": "Run",
     "Application.stockSpanProblem.executor": "Run",
     "Application.sumOfNnaturalNo.executor": "Run",
@@ -107,7 +108,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.givenSumSubArray">
+  <component name="RunManager" selected="Application.searchInRotatedArray">
     <configuration name="BootrestbookApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.api.book.bootrestbook.BootrestbookApplication" />
       <module name="bootrestbook" />
@@ -134,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.searchInsertPosition" />
+    <configuration name="searchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.searchInRotatedArray" />
       <module name="90-Days-Of-Code" />
       <extension name="coverage">
         <pattern>
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.searchInRotatedArray" />
         <item itemvalue="Application.givenSumSubArray" />
         <item itemvalue="Application.zeroSumSubArray" />
         <item itemvalue="Application.twoSumProblem" />
         <item itemvalue="Application.BootrestbookApplication" />
-        <item itemvalue="Application.searchInsertPosition" />
       </list>
     </recent_temporary>
   </component>
