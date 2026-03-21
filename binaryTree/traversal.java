@@ -17,15 +17,24 @@ public class traversal {
         n3.right = n5;
 
         inOrder(root);
+        System.out.println();
+        preOrder(root);
 
     }
 
     static void inOrder(Node root){
-
         if(root == null) return;
         inOrder(root.left);
         System.out.print(root.data +" ");
         inOrder(root.right);
+
+    }
+
+    static void preOrder(Node root){
+        if(root == null) return;
+        System.out.print(root.data +" ");
+        preOrder(root.left);
+        preOrder(root.right);
 
     }
 
