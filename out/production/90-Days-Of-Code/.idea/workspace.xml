@@ -81,6 +81,7 @@
     "Application.stockSpanProblem.executor": "Run",
     "Application.sumOfNnaturalNo.executor": "Run",
     "Application.sumOfNum.executor": "Run",
+    "Application.traversal.executor": "Run",
     "Application.twoSumProblem.executor": "Run",
     "Application.upperAndLoweBond.executor": "Run",
     "Application.waveArray.executor": "Run",
@@ -100,7 +101,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.idesettings.emmet"
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -108,20 +109,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.searchInRotatedArray">
-    <configuration name="BootrestbookApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.api.book.bootrestbook.BootrestbookApplication" />
-      <module name="bootrestbook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.api.book.bootrestbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.traversal">
     <configuration name="givenSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashing.givenSumSubArray" />
       <module name="90-Days-Of-Code" />
@@ -141,6 +129,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binaryTree.traversal" />
+      <module name="90-Days-Of-Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,18 +177,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.traversal" />
         <item itemvalue="Application.searchInRotatedArray" />
         <item itemvalue="Application.givenSumSubArray" />
         <item itemvalue="Application.zeroSumSubArray" />
         <item itemvalue="Application.twoSumProblem" />
-        <item itemvalue="Application.BootrestbookApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -240,5 +241,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
