@@ -2,6 +2,10 @@ package binaryTree;
 
 import org.w3c.dom.Node;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class traversal {
     public static void main(String[] args) {
         Node n1 = new Node(3);
@@ -22,6 +26,10 @@ public class traversal {
         System.out.println();
         postOrder(root);
 
+        System.out.println();
+
+        System.out.println(inorderTraversal(root));
+
     }
 
     static void inOrder(Node root){
@@ -29,6 +37,23 @@ public class traversal {
         inOrder(root.left);
         System.out.print(root.data +" ");
         inOrder(root.right);
+
+    }
+
+    static List<Integer> inorderTraversal(Node root) {
+        List<Integer> result = new ArrayList<>();
+        inorderTraversalHelper(root,result);
+        return result;
+
+    }
+
+    static void inorderTraversalHelper(Node root,List<Integer> result) {
+        if (root != null){
+            inorderTraversalHelper(root.left, result);
+            result.add(root.data);
+            inorderTraversalHelper(root.right,result);
+
+        }
 
     }
 
